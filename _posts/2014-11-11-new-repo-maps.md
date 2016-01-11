@@ -7,4 +7,4 @@ The beer.db project - offering free public domain beer, brewery and brewpubs dat
 for hosting 'full-screen' interactive beer maps with brewery listings.
 
 See an example [beer map for Austria](http://openbeer.github.io/maps/at) (~200 breweries n brewpubs)
-live or [check the source using](https://github.com/openbeer/maps) the mapbox.js mapping library.
+live or [check the source](https://github.com/openbeer/maps) using the mapbox.js mapping library.
