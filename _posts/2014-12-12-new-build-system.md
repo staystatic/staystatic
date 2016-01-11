@@ -3,10 +3,7 @@ layout: post
 title:  "New `football.db` Build System - Welcome `./Datafile`"
 ---
 
-The sportdb command line tool includes a new build system (as a new and easier all-in-one option). 
-
-To try it - use the new Datafile - a mini language a.k.a. domain-specific language (DSL)
-that lets you setup new `football.db`s in minutes. 
+The sportdb command line tool includes a new build system (as a new and easier all-in-one option).  To try it - use the new Datafile - a mini language a.k.a. domain-specific language (DSL) that lets you setup new `football.db`s in minutes. 
 
 For example, to setup a football.db for the World Cup 2014 use: 
 
