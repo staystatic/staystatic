@@ -2,9 +2,7 @@
 
 Shows how to use:
 
-1) Pages
-
-2) (Blog) Posts 
-
-3) Custom Content Type (e.g. Datafile)
+1. Pages
+2. (Blog) Posts 
+3. Custom Content Types (e.g. Datafile)
 
