@@ -29,6 +29,12 @@ h1, h2, h3 {
   color: #b00800;  /* red */
 }
 
+
+ul { list-style-type: square; }  /* for "bulleted" lists use squares */
+
+table td  { vertical-align: top; }  /* for tables vertical align columns to top */
+
+
 .container {
     max-width: 38rem;
     padding-left: 1.5rem;
@@ -36,3 +42,4 @@ h1, h2, h3 {
     margin-left: auto;
     margin-right: auto;
 }
+
