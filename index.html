@@ -3,17 +3,30 @@ layout: default
 title: Welcome
 ---
 
-<h1>{{page.title}}}</h1>
+<h1>{{page.title}}</h1>
 
 <table>
   <tr>
   <td><!-- 1st column -->
     <b>Pages</b>
+    <ul>
+        <li><a href="/about.html">About</a></li>
+    </ul>
   </td>
   <td><!-- 2nd column -->
     <b>Posts</b>
+    <ul>
+      {% for post in site.posts %}
+        <li><a href="{{post.url}}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
   </td>
   <td><!-- 3rd column -->
     <b>Links 'n' Bookmarks</b>
+    <ul>
+      {% for link in site.data.links %}
+        <li><a href="{{link.url}}">{{ link.title }}</a></li>
+      {% endfor %}
+    </ul>
   </td>
 </table>

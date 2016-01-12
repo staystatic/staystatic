@@ -3,11 +3,11 @@ layout: page
 title: About
 ---
 
-# {page.title}
+# {{page.title}}
 
 Jekyll Static Site Sample. Shows how to use:
 
-1. Pages (see about.md)
-2. Posts (see _posts/*.md)
-3. Custom Content Types (see _data/links.yml)
+1. Pages (see `_pages/about.md`)
+2. Posts (see `_posts/*.md`)
+3. Custom Content Types (see `_data/links.yml`)
 
