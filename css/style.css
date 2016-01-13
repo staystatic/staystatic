@@ -32,6 +32,14 @@ h1, h2, h3 {
 
 ul { list-style-type: square; }  /* for "bulleted" lists use squares */
 
+
+table.cols3 {  table-layout: fixed; }
+
+table.cols3 td.col1,
+table.cols3 td.col2,
+table.cols3 td.col3   { width: 33%; }
+
+
 table td  { vertical-align: top; }  /* for tables vertical align columns to top */
 
 
@@ -41,5 +49,10 @@ table td  { vertical-align: top; }  /* for tables vertical align columns to top 
     padding-right: 1.5rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+#footer {
+    text-align: center;
+    font-size: 80%;
 }
 

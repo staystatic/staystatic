@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Repo /maps - Free 'Full-Screen' Interactive Beer Maps w/ Brewery Listings"
+title: "beer.db - New Repo /maps - Free 'Full-Screen' Interactive Beer Maps w/ Brewery Listings"
 ---
 
 The beer.db project - offering free public domain beer, brewery and brewpubs data - added a new repo, that is, `/maps` 
