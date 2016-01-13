@@ -6,4 +6,4 @@ Shows how to use:
 2. Posts 
 3. Custom Content Types (e.g. Bookmarks 'n' Links)
 
-See the live version @ [´sites/jekyll´](http://staystatic.github.io/sites/jekyll)
+See the live version @ [`sites/jekyll`](http://staystatic.github.io/sites/jekyll)
