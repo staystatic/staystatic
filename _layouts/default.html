@@ -9,10 +9,10 @@
      <link rel="stylesheet" href="{{site.path}}/css/style.css">
   </head>
   <body>
-    <div class="container">
+    {% include header.html %}
+    <div class="main">
       {{ content }}
-    </div>
-    
+    </div>   
     {% include footer.html %}
   </body>
 </html>

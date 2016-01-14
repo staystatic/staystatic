@@ -3,8 +3,6 @@ layout: page
 title: About
 ---
 
-# {{page.title}}
-
 Jekyll Static Site Sample. Shows how to use:
 
 1. Pages (see `_pages/about.md`)

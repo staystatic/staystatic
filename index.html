@@ -3,30 +3,21 @@ layout: default
 title: Welcome
 ---
 
-<h1>{{page.title}}</h1>
+<div>
+  <b>News 'n' Updates</b>
+  <ul class="news">
+   {% for post in site.posts %}
+    <li><a href="{{site.path}}{{post.url}}">{{ post.title }}</a></li>
+   {% endfor %}
+  </ul>
+</div>
 
-<table class="cols3">
-  <tr>
-  <td class="col1"><!-- 1st column -->
-    <b>Pages</b>
-    <ul>
-        <li><a href="{{site.path}}/about.html">About</a></li>
-    </ul>
-  </td>
-  <td class="col2"><!-- 2nd column -->
-    <b>Posts</b>
-    <ul>
-      {% for post in site.posts %}
-        <li><a href="{{site.path}}{{post.url}}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </td>
-  <td class="col3"><!-- 3rd column -->
-    <b>Links 'n' Bookmarks</b>
-    <ul>
-      {% for link in site.data.links %}
-        <li><a href="{{link.url}}">{{ link.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </td>
-</table>
+<div>
+  <b>Links 'n' Bookmarks</b>
+  <ul class="links">
+    {% for link in site.data.links %}
+      <li><a href="{{link.url}}">{{ link.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+

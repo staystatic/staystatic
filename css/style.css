@@ -20,7 +20,6 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;   /* bold */
   color: #313131;
 }
@@ -33,23 +32,33 @@ h1, h2, h3 {
 ul { list-style-type: square; }  /* for "bulleted" lists use squares */
 
 
-table.cols3 {  table-layout: fixed; }
 
-table.cols3 td.col1,
-table.cols3 td.col2,
-table.cols3 td.col3   { width: 33%; }
-
-
-table td  { vertical-align: top; }  /* for tables vertical align columns to top */
-
-
-.container {
+body {
     max-width: 38rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     margin-left: auto;
     margin-right: auto;
 }
+
+#header {
+  color: #515151;
+  font-weight: bold;
+  border-bottom: 1px solid  #515151;
+  margin-bottom: 30px;
+}
+
+#header a {
+  color: #515151;
+  font-weight: bold;
+}
+
+#header a:hover,
+#header a:focus {
+  text-decoration: none;
+}
+
+
 
 #footer {
     text-align: center;
