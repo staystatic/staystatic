@@ -5,8 +5,10 @@ Jekyll • Middleman • Metalsmith • Gatsby • Hugo
 
 
 
-</> **Jekyll Static Site Sample**  #ruby #liquid #yaml
+</> [**Jekyll Static Site Sample**](http://staystatic.github.io/sites/jekyll)  #ruby #liquid #yaml
 
-</> **Middleman Static Site Sample**  #ruby #erb #yaml
+</> [**Middleman Static Site Sample**](http://staystatic.github.io/sites/middleman)  #ruby #erb #yaml
 
-</> **Gatsby Static Site Sample** #javascript #react (+jsx)
+</> [**Gatsby Static Site Sample**](http://staystatic.github.io/sites/gatsby) #javascript #react (+jsx)
+
+</> [**Hugo Static Site Sample**](http://staystatic.github.io/sites/hugo) #go #go templates #toml

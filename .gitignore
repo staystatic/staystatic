@@ -20,3 +20,8 @@ middleman/.cache
 gatsby/node_modules/
 gatsby/public/
 gatsby/.gatsby-context.js
+
+#####################
+## hugo ignores
+
+hugo/public/

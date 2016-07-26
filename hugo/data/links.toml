@@ -1,0 +1,15 @@
+#############################
+#  Links 'n' Bookmarks
+#
+
+[[links]]
+title = "football.db - Open Football Data"
+url   = "https://github.com/openfootball"
+
+[[links]]
+title = "beer.db - Open Beer, Brewery 'n' Brewpub Data"
+url   = "https://github.com/openbeer"
+
+[[links]]
+title = "world.db - Open World Data"
+url   = "https://github.com/openmundi"

@@ -1,0 +1,3 @@
+baseurl = "http://staystatic.github.io/sites/hugo/"
+languageCode = "en-us"
+title = "Hugo Stay Static Site Sample"
