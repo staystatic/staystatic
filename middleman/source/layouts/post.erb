@@ -1,0 +1,25 @@
+<% wrap_layout :layout do %>
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"><%= current_article.title %></h1>
+    <p class="post-meta"><%= current_article.date.strftime('%b %-d, %Y') %></p>
+  </header>
+
+  <article class="post-main">
+    <%= yield %>
+  </article>
+
+</div>
+
+<div>
+    <b>More News 'n' Updates</b>
+    <ul>
+      <% blog.articles.each do |article| %>
+        <li><%= link_to article.title, article.url %></li>
+      <% end %>
+    </ul>
+</div>
+
+<% end %>

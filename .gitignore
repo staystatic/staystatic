@@ -4,6 +4,16 @@
 jekyll/_site/
 jekyll/.sass-cache/
 
+
+######################
+## middleman ignores
+
+middleman/.bundle
+middleman/build
+middleman/.sass-cache
+middleman/.cache
+
+
 ######################
 ## gatsby ignore
 

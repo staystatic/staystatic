@@ -1,0 +1,22 @@
+---
+title:  Welcome
+---
+
+<div>
+  <b>News 'n' Updates</b>
+  <ul>
+    <% blog.articles.each do |article| %>
+      <li><%= link_to article.title, article.url %></li>
+    <% end %>
+  </ul>
+</div>
+
+<div>
+  <b>Links 'n' Bookmarks</b>
+  <ul>
+    <% data.links.each do |link| %>
+      <li><%= link_to link.title, link.url %></li>
+    <% end %>           
+  </ul> 
+</div>
+ 
