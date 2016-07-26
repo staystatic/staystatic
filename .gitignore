@@ -3,3 +3,10 @@
 
 jekyll/_site/
 jekyll/.sass-cache/
+
+######################
+## gatsby ignore
+
+gatsby/node_modules/
+gatsby/public/
+gatsby/.gatsby-context.js
