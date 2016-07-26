@@ -15,11 +15,19 @@ middleman/.cache
 
 
 ######################
-## gatsby ignore
+## gatsby ignores
 
 gatsby/node_modules/
 gatsby/public/
 gatsby/.gatsby-context.js
+
+
+##############################
+# metalsmith (+nunjucks) ignores
+
+metalsmith-nunjucks/build
+metalsmith-nunjucks/node_modules
+
 
 #####################
 ## hugo ignores

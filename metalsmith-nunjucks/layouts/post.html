@@ -1,0 +1,25 @@
+{% extends "default.html" %}
+
+{% block body %}
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ title }}</h1>
+    <p class="post-meta">{{ date }}</p><!-- todo: format/pretty print date -->
+  </header>
+
+  <article class="post-main">
+     {{ contents | safe }}
+  </article>
+
+</div>
+
+<div>
+    <b>More News 'n' Updates</b>
+    <ul>
+      {% for post in posts %}
+        <li><a href="{{ post.urlxx }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+</div>
+{% endblock %}

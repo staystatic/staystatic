@@ -1,0 +1,23 @@
+---
+layout: default.html
+title: Welcome
+---
+
+<div>
+  <b>News 'n' Updates</b>
+    <ul>
+        {% for post in posts %}
+           <li><a href="{{ post.urlxx }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div>
+  <b>Links 'n' Bookmarks</b>
+    <ul>
+        {% for link in links %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>  
+
