@@ -1,2 +1,5 @@
-_site/
-.sass-cache/
+#####################
+## jekyll ignores
+
+jekyll/_site/
+jekyll/.sass-cache/
