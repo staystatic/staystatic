@@ -11,6 +11,9 @@ Jekyll • Middleman • Metalsmith • Gatsby • Hugo
 
 </> [**Gatsby Static Site Sample**](http://staystatic.github.io/sites/gatsby) #javascript #react (+jsx)
 
+</> [**Metalsmith (+Handlebars) Static Site Sample**](http://staystatic.github.io/sites/metalsmith) #javascript #handlebars #json
+
 </> [**Metalsmith (+Nunjucks) Static Site Sample**](http://staystatic.github.io/sites/metalsmith-nunjucks) #javascript #nunjucks #json
+
 
 </> [**Hugo Static Site Sample**](http://staystatic.github.io/sites/hugo) #go #go templates #toml

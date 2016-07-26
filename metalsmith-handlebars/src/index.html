@@ -1,0 +1,23 @@
+---
+layout: default.html
+title: Welcome
+---
+
+<div>
+  <b>News 'n' Updates</b>
+    <ul>
+        {{#each posts}}
+           <li><a href="{{ urlxx }}">{{ title }}</a></li>
+        {{/each}}
+    </ul>
+</div>
+
+<div>
+  <b>Links 'n' Bookmarks</b>
+    <ul>
+        {{#each links}}
+          <li><a href="{{ url }}">{{ title }}</a></li>
+        {{/each}}
+    </ul>
+</div>  
+

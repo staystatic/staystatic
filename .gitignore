@@ -29,6 +29,13 @@ metalsmith-nunjucks/build
 metalsmith-nunjucks/node_modules
 
 
+###################################
+# metalsmith (+handlebars) ignores
+
+metalsmith-handlebars/build
+metalsmith-handlebars/node_modules
+
+
 #####################
 ## hugo ignores
 

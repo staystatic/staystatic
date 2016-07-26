@@ -1,0 +1,27 @@
+{
+  "name": "metalsmith-sample",
+  "version": "1.0.0",
+  "description": "stay static sample site",
+  "main": "build.js",
+  "dependencies": {},
+  "devDependencies": {
+    "handlebars": "^4.0.5",
+    "metalsmith": "^2.1.0",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-in-place": "^1.4.3",
+    "metalsmith-layouts": "^1.5.4",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-metadata": "0.0.4",
+    "metalsmith-permalinks": "^0.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staystatic/metalsmith.git"
+  },
+  "author": "Gerald Bauer",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/staystatic/metalsmith/issues"
+  },
+  "homepage": "https://github.com/staystatic/metalsmith#readme"
+}
