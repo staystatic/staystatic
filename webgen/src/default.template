@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+     <title>{title: } | <%= context.website.ext.site_name %></title>
+
+     <!-- CSS -->
+     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+     <link rel="stylesheet" href="{relocatable: style.css}">
+  </head>
+  <body>
+    <webgen:block name="content" chain="templates/header.template" />
+    <div class="main">
+      <webgen:block name="content" />
+    </div>
+    <webgen:block name="content" chain="templates/footer.template" />
+  </body>
+</html>

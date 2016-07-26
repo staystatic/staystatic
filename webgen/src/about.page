@@ -1,0 +1,10 @@
+---
+title: About
+---
+
+webgen Static Site Sample. Shows how to use:
+
+1. Pages (see `src/about.page`)
+2. Posts (see `src/posts/*.page`)
+3. Custom Content Types (see `ext/init.rb`)
+

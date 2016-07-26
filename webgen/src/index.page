@@ -1,0 +1,16 @@
+---
+title: Welcome
+--- pipeline:erb,blocks
+<div>
+  <b>News 'n' Updates</b>
+  <webgen:block name="content" chain="templates/post_list.template" />
+</div>
+
+<div>
+  <b>Links 'n' Bookmarks</b>
+  <ul class="links">
+    <% context.website.ext.links.each do |link|%>
+      <li><a href="<%= link[:url] %>"><%= link[:title] %></a></li>
+    <% end %>
+  </ul>
+</div>

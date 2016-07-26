@@ -1,0 +1,11 @@
+<div id="header">
+  <table width="100%">
+    <td>
+      <a href="{relocatable: /index.html}"><%= context.website.ext.site_name %></a>
+    </td>
+    <td style="text-align: right">
+      <!-- list of pages -->
+      <a href="{relocatable: /about.html}">About</a>
+    </td>
+  </table>
+</div>

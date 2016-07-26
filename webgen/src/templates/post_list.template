@@ -1,0 +1,9 @@
+<ul>
+<%
+options = {:alcn => '/posts/*.html', :flatten => true, :sort => 'created_at', :reverse => true}
+context.website.ext.item_tracker.add(context.dest_node, :nodes, :node_finder_option_set, {:opts => options, :ref_alcn => context.node.alcn}, :meta_info)
+context.website.ext.node_finder.find(options, context.node).each do |node|
+%>
+  <li><a href="{relocatable: <%= node.alcn %>}"><%= node['title'] %></a></li>
+<% end %>
+</ul>
