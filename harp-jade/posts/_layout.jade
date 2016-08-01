@@ -1,0 +1,12 @@
+doctype
+html
+  != partial("_partials/head")
+  body
+    h1 Post Layout Here
+    != partial("_partials/header")
+    != yield
+    ul
+      each post, slug in public.posts._data
+        li
+          a(href="#{ site_path }/posts/#{ slug }") #{ post.title }
+    != partial("_partials/footer")

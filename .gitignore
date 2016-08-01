@@ -36,6 +36,11 @@ metalsmith-handlebars/build
 metalsmith-handlebars/node_modules
 
 
+#############################
+# harp (+jade) ignores
+
+harp-jade/www
+
 #####################
 ## hugo ignores
 
