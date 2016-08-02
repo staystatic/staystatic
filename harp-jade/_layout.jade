@@ -1,9 +1,17 @@
 doctype
 html
-  != partial("_partials/head")
+  != partial( "_partials/head" )
   body
-    h1 Default / Plain Layout Here
-    != partial("_partials/header")
-    <!-- add/todo: if index page -- no title otherwise assume page w/ title -->
-    != yield
-    != partial("_partials/footer")
+    != partial( "_partials/header" )
+
+    if current.source === 'index'
+      // note: if index page -- no title
+      != yield
+    else
+      // otherwise assume page w/ title
+      div(class="page")
+        h1=  "page.title"
+        // FIX: how to get page title ???
+        != yield
+
+    != partial( "_partials/footer" )

@@ -1,7 +1,7 @@
 {
   "globals": {
     "site_title": "Harp Stay Static Sample",
-    "site_path": "sites/harp-jade",
+    "site_path": "/sites/harp-jade",
     "site_data": {
       "links": [
        { "title": "football.db - Open Football Data",

@@ -1,2 +1,7 @@
 div(id="header")
-  h1 Header Here
+  table(width="100%")
+    td
+      a(href="#{site_path}/index.html") #{ site_title }
+    td(style="text-align: right")
+      // list of pages
+      a(href="#{site_path}/about.html") About

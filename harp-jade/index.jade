@@ -1,11 +1,13 @@
-h1 Welcome to Harp.
-h3 This is yours to own. Enjoy.
-ul
-  each post, slug in public.posts._data
-    li
-      a(href="#{ site_path }/posts/#{ slug }") #{ post.title }
+div
+  b News 'n' Updates
+  ul(class="news")
+    each post, slug in public.posts._data
+      li
+        a(href="#{ site_path }/posts/#{ slug }") #{ post.title }
 
-ul
-  each link in site_data.links
-    li
-      a(href="#{ link.url }") #{ link.title }
+div
+  b Links 'n' Bookmarks
+  ul(class="links")
+    each link in site_data.links
+      li
+        a(href="#{ link.url }") #{ link.title }
