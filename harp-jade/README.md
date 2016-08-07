@@ -18,12 +18,50 @@ Shows how to use:
 See the live version @ [`sites/harp`](http://staystatic.github.io/sites/harp)
 
 ```
+|   404.jade
+|   about.md
+|   index.jade
+|   README.md
+|   _data.json
+|   _harp.json
+|   _layout.jade
+|
++---css/
+|       style.css
+|
++---data/
+|       _data.json
+|
++---posts/
+|       new-build-system.md
+|       new-repo-maps.md
+|       new-season.md
+|       _data.json
+|       _layout.jade
+|
+\---_partials/
+        footer.jade
+        github.jade
+        head.jade
+        header.jade
 ```
 
 will result in:
 
 ```
+|   404.html
+|   about.html
+|   index.html
+|
++---css/
+|       style.css
+|
+\---posts/
+        new-build-system.html
+        new-repo-maps.html
+        new-season.html
 ```
+
 
 ## Install & Build Notes
 
@@ -58,3 +96,5 @@ from `"/sites/harp"` to `""` (yes, an empty string).
 - [ ] add google fonts css line
 - [ ] use public folder - possible to configure in `_harp.json` ?
 - [ ] check - can include partial without path (e.g. from default `_partials` folder) ??
+- [ ] possible partial with "plain" html (not jade) ??
+- [ ] possible to exclude README ?? (use public (sub)folder ??)
