@@ -2,8 +2,7 @@
   "globals": {
     "site": {
       "title": "Harp Stay Static Sample",
-      "path": "",
-      "path2":  "/sites/harp-jade"
+      "path":  "/sites/harp"
     },
     "page": {
       "title": ""
