@@ -1,5 +1,5 @@
 
-Jekyll • Middleman • Webgen • Metalsmith • Gatsby • Hugo
+Jekyll • Middleman • Webgen • Metalsmith • Gatsby • Harp • Hugo
 
 # Stay Static - Static Site Showcase / Samples
 
@@ -16,5 +16,7 @@ Jekyll • Middleman • Webgen • Metalsmith • Gatsby • Hugo
 </> [**Metalsmith (+Nunjucks) Static Site Sample**](http://staystatic.github.io/sites/metalsmith-nunjucks) #javascript #nunjucks #json
 
 </> [**Gatsby Static Site Sample**](http://staystatic.github.io/sites/gatsby) #javascript #react (+jsx)
+
+</> [**Harp (+Jade) Static Site Sample**](http://staystatic.github.io/sites/harp) #javascript #jade #json
 
 </> [**Hugo Static Site Sample**](http://staystatic.github.io/sites/hugo) #go #go templates #toml
