@@ -1,5 +1,12 @@
 {
   "globals": {
+    "site": {
+      "title": "Harp Stay Static Sample",
+      "path":  "/sites/harp-jade"
+    },
+    "page": {
+      "title": ""
+    },
     "site_title": "Harp Stay Static Sample",
     "site_path": "/sites/harp-jade",
     "site_data": {
