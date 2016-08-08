@@ -1,0 +1,23 @@
+doctype
+html
+  != partial( "../_partials/head" )
+  body
+    != partial( "../_partials/github.html" )
+    != partial( "../_partials/header" )
+
+    div.post
+      header.post-header
+        h1.post-title #{ page.title }
+        p.post-meta #{ page.date }
+      article.post-main
+        != yield
+
+    div
+      b More News 'n' Updates
+      ul
+        each post, slug in public.posts._data
+          li
+            - page = post.page
+            a(href="#{ site.path }/posts/#{ slug }") #{ page.title }
+
+    != partial( "../_partials/footer" )

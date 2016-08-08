@@ -1,0 +1,17 @@
+{
+  "index": {
+    "page": {
+      "title": "Welcome"
+    }
+  },
+  "about": {
+    "page": {
+      "title": "About"
+    }
+  },
+  "404": {
+    "page": {
+      "title": "404 Not Found"
+    }
+  }
+}
