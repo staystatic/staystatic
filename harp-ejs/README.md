@@ -1,4 +1,4 @@
-# Harp (+Jade) Static Site Sample
+# Harp (+EJS) Static Site Sample
 
 > Harp is a static web server that also serves Jade, Markdown, EJS, Less, Stylus, Sass, and CoffeeScript
 > as HTML, CSS, and JavaScript without any configuration. It supports the beloved layout/partial
@@ -15,7 +15,7 @@ Shows how to use:
 2. Posts
 3. Custom Content Types (e.g. Bookmarks 'n' Links)
 
-See the live version @ [`sites/harp`](http://staystatic.github.io/sites/harp)
+See the live version @ [`sites/harp-ejs`](http://staystatic.github.io/sites/harp-ejs)
 
 ```
 ```

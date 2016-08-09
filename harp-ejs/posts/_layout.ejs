@@ -1,23 +1,35 @@
-doctype
-html
-  != partial( "../_partials/head" )
-  body
-    != partial( "../_partials/github.html" )
-    != partial( "../_partials/header" )
+<!DOCTYPE html>
+<html>
+  <%- partial( "../_partials/head" ) %>
+  <body>
+    <%- partial( "../_partials/github" ) %>
+    <%- partial( "../_partials/header" ) %>
 
-    div.post
-      header.post-header
-        h1.post-title #{ page.title }
-        p.post-meta #{ page.date }
-      article.post-main
-        != yield
+    <div class="post">
 
-    div
-      b More News 'n' Updates
-      ul
-        each post, slug in public.posts._data
-          li
-            - page = post.page
-            a(href="#{ site.path }/posts/#{ slug }") #{ page.title }
+      <header class="post-header">
+        <h1 class="post-title"><%- page.title %></h1>
+        <p class="post-meta"><%- page.date %></p>
+      </header>
 
-    != partial( "../_partials/footer" )
+      <article class="post-main">
+        <%- yield %>
+      </article>
+
+    </div>
+
+    <div>
+        <b>More News 'n' Updates</b>
+        <ul>
+          <% for( var slug in public.posts._data) {
+               var post = public.posts._data[slug];
+               var page = post.page;
+           %>
+            <li><a href="<%- site.path %>/posts/<%- slug %>"><%- page.title %></a></li>
+          <% } %>
+        </ul>
+    </div>
+
+    <%- partial( "../_partials/footer" ) %>
+  </body>
+</html>
