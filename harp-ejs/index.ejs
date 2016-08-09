@@ -1,14 +1,21 @@
-div
-  b News 'n' Updates
-  ul(class="news")
-    each post, slug in public.posts._data
-      li
-        - page = post.page
-        a(href="#{ site.path }/posts/#{ slug }") #{ page.title }
+<div>
+  <b>News 'n' Updates</b>
+  <ul class="news">
+   <% for(var slug in public.posts._data) {
+        var post = public.posts._data[slug];
+        var page = post.page;
+    %>
+      <li><a href="<%- site.path %>/posts/<%- slug %>"><%- page.title %></a></li>
+   <% } %>
+  </ul>
+</div>
 
-div
-  b Links 'n' Bookmarks
-  ul(class="links")
-    each link in public.data._data.links
-      li
-        a(href="#{ link.url }") #{ link.title }
+<div>
+  <b>Links 'n' Bookmarks</b>
+  <ul class="links">
+    <% for(var idx in public.data._data.links) {
+          var link = public.data._data.links[idx]; %>
+      <li><a href="<%- link.url %>"><%- link.title %></a></li>
+    <% } %>
+  </ul>
+</div>

@@ -2,7 +2,7 @@
   "globals": {
     "site": {
       "title": "Harp Stay Static Sample",
-      "path":  "/sites/harp"
+      "path":  "/sites/harp-ejs"
     },
     "page": {
       "title": ""

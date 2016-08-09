@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
-
-  <%- partial("_partials/head") %>
+  <%- partial( "_partials/head" ) %>
   <body>
+    <%- partial( "_partials/github" ) %>
+    <%- partial( "_partials/header" ) %>
 
-    <%- partial("_partials/github") %>
-    <%- partial("_partials/header") %>
-
-    != partial( "_partials/github" )
-    != partial( "_partials/header" )
-
-    if current.source == 'index'
+    <% if( current.source == 'index' ) { %>
       // note: if index page -- no title on page (just in head)
-      != yield
-    else
+      <%- yield %>
+    <% } else { %>
       // otherwise assume page w/ title
-      div(class="page")
-        h1 #{page.title}
-        != yield
+      <div class="page">
+        <h1><%- page.title %></h1>
+        <%- yield %>
+      </div>
+    <% } %>
 
-    != partial( "_partials/footer" )
+    <%- partial( "_partials/footer" ) %>
+  </body>
+</html>
