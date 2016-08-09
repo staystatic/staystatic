@@ -6,10 +6,10 @@
     <%- partial( "_partials/header" ) %>
 
     <% if( current.source == 'index' ) { %>
-      // note: if index page -- no title on page (just in head)
+       <!-- note: if index page - no title on page (just in head) -->
       <%- yield %>
     <% } else { %>
-      // otherwise assume page w/ title
+       <!-- otherwise assume page w/ title -->
       <div class="page">
         <h1><%- page.title %></h1>
         <%- yield %>
