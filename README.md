@@ -19,4 +19,6 @@ Jekyll • Middleman • Webgen • Metalsmith • Gatsby • Harp • Hugo
 
 </> [**Harp (+Jade) Static Site Sample**](http://staystatic.github.io/sites/harp) #javascript #jade #json
 
+</> [**Harp (+EJS) Static Site Sample**](http://staystatic.github.io/sites/harp-ejs) #javascript #ejs #json
+
 </> [**Hugo Static Site Sample**](http://staystatic.github.io/sites/hugo) #go #go templates #toml
