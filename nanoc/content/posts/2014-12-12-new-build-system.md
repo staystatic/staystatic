@@ -1,29 +1,30 @@
 ---
-layout: post
 title:  "football.db - New Build System - Welcome ./Datafile"
+created_at: "2014-12-12"
+kind:       "article"
 ---
 
-The sportdb command line tool includes a new build system (as a new and easier all-in-one option).  To try it - use the new Datafile - a mini language a.k.a. domain-specific language (DSL) that lets you setup new `football.db`s in minutes. 
+The sportdb command line tool includes a new build system (as a new and easier all-in-one option).  To try it - use the new Datafile - a mini language a.k.a. domain-specific language (DSL) that lets you setup new `football.db`s in minutes.
 
-For example, to setup a football.db for the World Cup 2014 use: 
+For example, to setup a football.db for the World Cup 2014 use:
 
-`./Datafile`: 
+`./Datafile`:
 
-    world 'openmundi/world.db', setup: 'countries' 
-    
-    football 'openfootball/national-teams' 
-    football 'openfootball/world-cup', setup: '2014' 
+    world 'openmundi/world.db', setup: 'countries'
 
-
-Now run 
-
-    $ sportdb build 
+    football 'openfootball/national-teams'
+    football 'openfootball/world-cup', setup: '2014'
 
 
-The new build command will look for the `./Datafile` script in your working folder and 
+Now run
+
+    $ sportdb build
+
+
+The new build command will look for the `./Datafile` script in your working folder and
 
 - Step 1) Download all datasets as zip archives (from GitHub) to `./tmp`
-- Step 2) Create all database tables 
-- Step 3) Read/import all datasets from the zip archives in `./tmp` (no need to unpack) 
+- Step 2) Create all database tables
+- Step 3) Read/import all datasets from the zip archives in `./tmp` (no need to unpack)
 
 That's it.

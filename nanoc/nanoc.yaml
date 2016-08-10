@@ -1,3 +1,12 @@
+###########
+# site (meta data) settings
+
+title: 'Nanoc Stay Static Sample Site'
+
+
+###########
+# more settings
+
 # The syntax to use for patterns in the Rules file. Can be either `"glob"`
 # (default) or `"legacy"`. The former will enable glob patterns, which behave
 # like Ruby’s File.fnmatch. The latter will enable Nanoc 3.x-style patterns.

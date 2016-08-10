@@ -1,6 +1,27 @@
 <% render '/default.*' do %>
 
-   <p>Post Layout Here</p>
-  <%= yield %>
+  <div class="post">
+
+    <header class="post-header">
+      <h1 class="post-title"><%= @item[:title] %></h1>
+      <p class="post-meta"><%= @item[:created_at] %> <!-- fix: format date w/ "%b %-d, %Y" --></p>
+    </header>
+
+    <article class="post-main">
+        <%= yield %>
+    </article>
+
+  </div>
+
+  <div>
+      <b>More News 'n' Updates</b>
+      <ul>
+        <!--
+        {% for post in site.posts %}
+          <li><a href="{{site.path}}{{post.url}}">{{ post.title }}</a></li>
+        {% endfor %}
+         -->
+      </ul>
+  </div>
 
 <% end %>
