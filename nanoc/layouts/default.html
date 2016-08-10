@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+     <title><%= @item[:title] %> | <%= "site.title ??" %></title>
+
+     <!-- CSS -->
+     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+     <link rel="stylesheet" href="{{site.path}}/css/style.css">
+  </head>
+  <body>
+    <%= render "/_github.*" %>
+    <%= render "/_header.*" %>
+    <div class="main">
+      <%= yield %>
+    </div>
+    <%= render "/_footer.*" %>
+  </body>
+</html>

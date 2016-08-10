@@ -1,0 +1,34 @@
+#!/usr/bin/env ruby
+
+compile '/**/*.html' do
+  layout '/default.*'
+  ## filter :relativize_paths, :type => :html
+end
+
+compile '/posts/*.md' do
+  filter :kramdown
+  layout '/post.*'
+  ## filter :relativize_paths, :type => :html
+end
+
+compile '/**/*.md' do
+  filter :kramdown
+  layout '/page.*'
+  ## filter :relativize_paths, :type => :html
+end
+
+
+
+route '/**/*.{html,md}' do
+  if item.identifier =~ '/index.*'
+    '/index.html'
+  else
+    item.identifier.without_ext + '/index.html'
+  end
+end
+
+compile '/**/*' do
+  write item.identifier.to_s
+end
+
+layout '/**/*', :erb
