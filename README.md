@@ -1,5 +1,5 @@
 
-Jekyll • Middleman • Webgen • Metalsmith • Gatsby • Harp • Hugo
+Jekyll • Middleman • Nanoc • Webgen • Metalsmith • Gatsby • Harp • Hugo
 
 # Stay Static - Static Site Showcase / Samples
 
@@ -8,6 +8,8 @@ Jekyll • Middleman • Webgen • Metalsmith • Gatsby • Harp • Hugo
 </> [**Jekyll Static Site Sample**](http://staystatic.github.io/sites/jekyll)  #ruby #liquid #yaml
 
 </> [**Middleman Static Site Sample**](http://staystatic.github.io/sites/middleman)  #ruby #erb #yaml
+
+</> [**Nanoc Static Site Sample**](http://staystatic.github.io/sites/nanoc) #ruby #erb
 
 </> [**Webgen Static Site Sample**](http://staystatic.github.io/sites/webgen) #ruby #erb
 
