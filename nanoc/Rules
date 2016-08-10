@@ -1,9 +1,8 @@
 #!/usr/bin/env ruby
 
-compile '/**/*.html' do
-  layout '/default.*'
-  filter :relativize_paths, :type => :html
-end
+ignore '/README.md'
+ignore '**/_*'     # don't compile layout (shared) partials
+
 
 compile '/posts/*.md' do
   filter :kramdown
@@ -17,6 +16,22 @@ compile '/**/*.md' do
   filter :relativize_paths, :type => :html
 end
 
+compile '/index.html' do
+  layout '/index.*'
+  filter :relativize_paths, :type => :html
+end
+
+# compile '/**/*.html' do
+#  layout '/default.*'
+#  filter :relativize_paths, :type => :html
+# end
+
+
+route '/posts/*' do
+  y,m,d,slug = /([0-9]+)\-([0-9]+)\-([0-9]+)\-([^\/]+)/.match( item.identifier.without_ext ).captures
+
+  "/posts/#{slug}.html"
+end
 
 route '/**/*.{html,md}' do
   item.identifier.without_ext + '.html'

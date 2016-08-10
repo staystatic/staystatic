@@ -16,6 +16,9 @@
   <div>
       <b>More News 'n' Updates</b>
       <ul>
+        <% sorted_articles.each do |post| %>
+          <li><%= link_to post[:title], post.path %></li>
+        <% end %>
         <!--
         {% for post in site.posts %}
           <li><a href="{{site.path}}{{post.url}}">{{ post.title }}</a></li>

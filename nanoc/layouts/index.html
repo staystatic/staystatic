@@ -1,0 +1,24 @@
+<% render '/default.*' do %>
+
+<!-- hack: cannot use sorted_articles in content/index.html - why? why not?
+      needs layout?
+  -->
+  <div>
+    <b>News 'n' Updates</b>
+    <ul class="news">
+     <% sorted_articles.each do |post| %>
+       <li><%= link_to post[:title], post.path %></li>
+     <% end %>
+    </ul>
+  </div>
+
+  <div>
+    <b>Links 'n' Bookmarks</b>
+    <ul class="links">
+      <% data_links.each do |link| %>
+        <li><a href="<%= link['url'] %>"><%= link['title'] %></a></li>
+      <% end %>
+    </ul>
+  </div>
+
+<% end %>
