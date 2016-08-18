@@ -11,7 +11,7 @@ Jekyll • Middleman • Nanoc • Webgen • Metalsmith • Gatsby • Harp •
 
 </> [**Nanoc Static Site Sample**](http://staystatic.github.io/sites/nanoc) #ruby #erb
 
-</> [**Webgen Static Site Sample**](http://staystatic.github.io/sites/webgen) #ruby #erb
+</> [**Webgen Static Site Sample**](http://staystatic.github.io/sites/webgen) #ruby #erb -- Thanks to Thomas Leitner ([@gettalong](https://github.com/gettalong))
 
 </> [**Metalsmith (+Handlebars) Static Site Sample**](http://staystatic.github.io/sites/metalsmith) #javascript #handlebars #json
 
@@ -25,4 +25,5 @@ Jekyll • Middleman • Nanoc • Webgen • Metalsmith • Gatsby • Harp •
 
 </> [**Hugo Static Site Sample**](http://staystatic.github.io/sites/hugo) #go #go templates #toml
 
-</> [**Nikola Static Site Sample**](http://staystatic.github.io/sites/nikola) #python #mako #yaml
+</> [**Nikola Static Site Sample**](http://staystatic.github.io/sites/nikola) #python #mako #yaml  -- Thanks to Roberto Alsina ([@ralsina](https://github.com/ralsina))
+
