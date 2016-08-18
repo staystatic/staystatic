@@ -1,5 +1,5 @@
 
-Jekyll • Middleman • Nanoc • Webgen • Metalsmith • Gatsby • Harp • Nikla • Hugo
+Jekyll • Middleman • Nanoc • Webgen • Metalsmith • Gatsby • Harp • Nikola • Hugo
 
 # Stay Static - Static Site Showcase / Samples
 
