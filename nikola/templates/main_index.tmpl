@@ -1,0 +1,23 @@
+## -*- coding: utf-8 -*-
+<%namespace name="helper" file="post_helper.tmpl"/>
+<%namespace name="pheader" file="post_header.tmpl"/>
+<%namespace name="comments" file="comments_helper.tmpl"/>
+<%inherit file="post.tmpl"/>
+
+<%block name="content">
+<article class="post-${post.meta('type')} storypage" itemscope="itemscope" itemtype="http://schema.org/Article">
+    <header>
+        ${pheader.html_title()}
+        ${pheader.html_translations(post)}
+    </header>
+    <div class="e-content entry-content" itemprop="articleBody text">
+    ${post.text()}
+<b>Links 'n' Bookmarks</b>
+<ul>
+% for link in links:
+    <li><a href="${link['url']}">${link['title']}</a></li>
+% endfor
+</ul>
+    </div>
+</article>
+</%block>

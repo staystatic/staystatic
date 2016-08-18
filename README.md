@@ -24,3 +24,5 @@ Jekyll • Middleman • Nanoc • Webgen • Metalsmith • Gatsby • Harp •
 </> [**Harp (+EJS) Static Site Sample**](http://staystatic.github.io/sites/harp-ejs) #javascript #ejs #json
 
 </> [**Hugo Static Site Sample**](http://staystatic.github.io/sites/hugo) #go #go templates #toml
+
+</> [**Nikola Static Site Sample**](http://staystatic.github.io/sites/nikola) #python #mako #yaml
