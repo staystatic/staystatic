@@ -1,0 +1,38 @@
+## -*- coding: utf-8 -*-
+<%namespace name="base" file="base_helper.tmpl" import="*"/>
+<%namespace name="header" file="base_header.tmpl" import="*"/>
+<%namespace name="footer" file="base_footer.tmpl" import="*"/>
+<%namespace name="annotations" file="annotation_helper.tmpl"/>
+${set_locale(lang)}
+     <!-- CSS -->
+     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+     <link rel="stylesheet" href="/css/style.css">
+<%block name="extra_head">
+### Leave this block alone.
+</%block>
+${template_hooks['extra_head']()}
+</head>
+<body>
+<div id="header">
+  <table width="100%">
+    <td>
+      <a href="/index.html">Nikola Stay Static Sample Site</a>
+    </td>
+    <td style="text-align: right">
+      <!-- list of pages -->
+      <a href="/about">About</a>
+    </td>
+  </table>
+</div>
+    <div id="container">
+         <main id="content">
+            <%block name="content"></%block>
+         </main>
+         ${footer.html_footer()}
+    </div>
+    ${base.late_load_js()}
+    <%block name="extra_js"></%block>
+    ${body_end}
+    ${template_hooks['body_end']()}
+</body>
+</html>
