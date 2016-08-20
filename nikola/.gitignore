@@ -1,0 +1,13 @@
+output/
+cache/
+.doit.db.bak
+.doit.db.dat
+.doit.db.dir
+
+__pycache__/
+
+# virtualenvwrapper oh-my-zsh plugin
+.venv
+
+# pyenv
+.python-version
