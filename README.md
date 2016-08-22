@@ -25,5 +25,6 @@ Jekyll • Middleman • Nanoc • Webgen • Metalsmith • Gatsby • Harp •
 
 </> [**Hugo Static Site Sample**](http://staystatic.github.io/sites/hugo) #go #go templates #toml
 
-</> [**Nikola Static Site Sample**](http://staystatic.github.io/sites/nikola) #python #mako #yaml  -- Thanks to Roberto Alsina ([@ralsina](https://github.com/ralsina))
+</> [**Nikola Static Site Sample**](http://staystatic.github.io/sites/nikola) #python #mako #yaml  -- Thanks to Roberto Alsina ([@ralsina](https://github.com/ralsina)) and Chris Warrick ([@Kwpolska](https://github.com/Kwpolska))
+
 
