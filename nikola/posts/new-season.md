@@ -1,4 +1,4 @@
-.. title: "football.db - New 2015/16 Seasons - English Premier League, Bundesliga, And More"
+.. title: football.db - New 2015/16 Seasons - English Premier League, Bundesliga, And More
 .. date: 2015-08-25 00:00:00 UTC
 
 The plain text football fixtures for leagues, teams, match schedules, stadiums,

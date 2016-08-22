@@ -1,4 +1,4 @@
-.. title: "beer.db - New Repo /maps - Free 'Full-Screen' Interactive Beer Maps w/ Brewery Listings"
+.. title: beer.db - New Repo /maps - Free 'Full-Screen' Interactive Beer Maps w/ Brewery Listings
 .. date: 2014-11-11 00:00:00 UTC
 
 The beer.db project - offering free public domain beer, brewery and brewpubs data - added a new repo, that is, `/maps`

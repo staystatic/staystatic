@@ -1,4 +1,4 @@
-.. title: "football.db - New Build System - Welcome ./Datafile"
+.. title: football.db - New Build System - Welcome ./Datafile
 .. date: 2014-12-12 00:00:00 UTC
 
 The sportdb command line tool includes a new build system (as a new and easier all-in-one option).  To try it - use the new Datafile - a mini language a.k.a. domain-specific language (DSL) that lets you setup new `football.db`s in minutes.
