@@ -14,7 +14,7 @@
     ${post.text()}
 <b>Links 'n' Bookmarks</b>
 <ul>
-% for link in links:
+% for link in data['links']:
     <li><a href="${link['url']}">${link['title']}</a></li>
 % endfor
 </ul>

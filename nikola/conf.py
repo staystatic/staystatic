@@ -1,5 +1,4 @@
 from __future__ import unicode_literals
-import time
 import yaml
 BLOG_AUTHOR = "Stay Static"  # (translatable)
 BLOG_TITLE = "Nikola Stay Static Sample"  # (translatable)
@@ -28,8 +27,10 @@ COMPILERS = {
 }
 INDEX_PATH = "posts"
 COPY_SOURCES = False
+SHOW_SOURCELINK = False
 PRETTY_URLS = False
 DISABLED_PLUGINS = ["robots"]
 GLOBAL_CONTEXT = {}
-GLOBAL_CONTEXT['links'] = yaml.load(open('data/links.yml'))
-DISABLED_PLUGINS = ['render_indexes', 'render_archive', 'rss', 'tags', 'sitemap', 'robots', 'create_bundles']
+WRITE_TAG_CLOUD = False
+GENERATE_RSS = False
+DISABLED_PLUGINS = ['classify_page_index', 'classify_sections', 'classify_indexes', 'classify_archive', 'tags', 'sitemap', 'robots', 'create_bundles']

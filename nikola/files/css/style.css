@@ -65,3 +65,17 @@ body {
     font-size: 80%;
 }
 
+
+
+/* Nikola-specific additions */
+.metadata p {
+    display: inline;
+}
+
+.metadata p:first-of-type:before {
+    content: "";
+}
+
+.metadata p::before, .postlist .listdate::after {
+    content: " — ";
+}
