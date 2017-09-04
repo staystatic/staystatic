@@ -17,7 +17,7 @@ Jekyll • Middleman • Nanoc • Webgen • Metalsmith • Gatsby • Harp •
 
 </> [**Metalsmith (+Nunjucks) Static Website Sample**](metalsmith-nunjucks) #javascript #nunjucks #json
 
-</> [**Gatsby (+GraphQL) Static Website Sample**](gatsby-graphql) #javascript #graphql #react (+jsx)
+</> [**Gatsby (+GraphQL) Static Website Sample**](gatsby) #javascript #graphql #react (+jsx)
 
 </> [**Harp (+Jade) Static Website Sample**](harp-jade) #javascript #jade #json
 
