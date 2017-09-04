@@ -1,3 +1,8 @@
+########
+#
+# todo/fix: move/split into individual .gitignore files in subfolders
+
+
 #####################
 ## jekyll ignores
 
@@ -12,14 +17,6 @@ middleman/.bundle
 middleman/build
 middleman/.sass-cache
 middleman/.cache
-
-
-######################
-## gatsby ignores
-
-gatsby/node_modules/
-gatsby/public/
-gatsby/.gatsby-context.js
 
 
 ##############################

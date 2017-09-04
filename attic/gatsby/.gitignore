@@ -1,0 +1,6 @@
+######################
+## gatsby ignores
+
+node_modules/
+public/
+.gatsby-context.js

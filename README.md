@@ -1,30 +1,35 @@
 
 Jekyll • Middleman • Nanoc • Webgen • Metalsmith • Gatsby • Harp • Nikola • Hugo • Jigsaw
 
-# Stay Static - Static (Web)Site Showcase / Samples
+# Stay Static - Static Website Showcase / Samples
 
 
 
-</> [**Jekyll Static Site Sample**](http://staystatic.github.io/sites/jekyll)  #ruby #liquid #yaml
+</> [**Jekyll Static Website Sample**](jekyll)  #ruby #liquid #yaml
 
-</> [**Middleman Static Site Sample**](http://staystatic.github.io/sites/middleman)  #ruby #erb #yaml
+</> [**Middleman Static Website Sample**](middleman)  #ruby #erb #yaml
 
-</> [**Nanoc Static Site Sample**](http://staystatic.github.io/sites/nanoc) #ruby #erb
+</> [**Nanoc Static Website Sample**](nanoc) #ruby #erb
 
-</> [**Webgen Static Site Sample**](http://staystatic.github.io/sites/webgen) #ruby #erb -- Thanks to Thomas Leitner ([@gettalong](https://github.com/gettalong))
+</> [**Webgen Static Website Sample**](webgen) #ruby #erb -- Thanks to Thomas Leitner ([@gettalong](https://github.com/gettalong))
 
-</> [**Metalsmith (+Handlebars) Static Site Sample**](http://staystatic.github.io/sites/metalsmith) #javascript #handlebars #json
+</> [**Metalsmith (+Handlebars) Static Website Sample**](metalsmith-handlebars) #javascript #handlebars #json
 
-</> [**Metalsmith (+Nunjucks) Static Site Sample**](http://staystatic.github.io/sites/metalsmith-nunjucks) #javascript #nunjucks #json
+</> [**Metalsmith (+Nunjucks) Static Website Sample**](metalsmith-nunjucks) #javascript #nunjucks #json
 
-</> [**Gatsby Static Site Sample**](http://staystatic.github.io/sites/gatsby) #javascript #react (+jsx)
+</> [**Gatsby (+GraphQL) Static Website Sample**](gatsby-graphql) #javascript #graphql #react (+jsx)
 
-</> [**Harp (+Jade) Static Site Sample**](http://staystatic.github.io/sites/harp) #javascript #jade #json
+</> [**Harp (+Jade) Static Website Sample**](harp-jade) #javascript #jade #json
 
-</> [**Harp (+EJS) Static Site Sample**](http://staystatic.github.io/sites/harp-ejs) #javascript #ejs #json
+</> [**Harp (+EJS) Static Website Sample**](harp-ejs) #javascript #ejs #json
 
-</> [**Hugo Static Site Sample**](http://staystatic.github.io/sites/hugo) #go #go templates #toml
+</> [**Hugo Static Website Sample**](hugo) #go #gotemplates #toml
 
-</> [**Nikola Static Site Sample**](http://staystatic.github.io/sites/nikola) #python #mako #yaml  -- Thanks to Roberto Alsina ([@ralsina](https://github.com/ralsina)) and Chris Warrick ([@Kwpolska](https://github.com/Kwpolska))
+</> [**Nikola Static Website Sample**](nikola) #python #mako #yaml  -- Thanks to Roberto Alsina ([@ralsina](https://github.com/ralsina)) and Chris Warrick ([@Kwpolska](https://github.com/Kwpolska))
 
-</> [**Jigsaw Static Site Sample**](http://staystatic.github.io/sites/jigsaw) #php #blade
+</> [**Jigsaw Static Website Sample**](jigsaw) #php #blade
+
+
+_Attic (Historic Samples)_
+
+</> [**Gatsby v0 Static Site Sample**](attic/gatsby) #javascript #react (+jsx)
