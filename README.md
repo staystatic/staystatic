@@ -1,8 +1,7 @@
 
 Jekyll • Middleman • Nanoc • Webgen • Metalsmith • Gatsby • Harp • Nikola • Hugo • Jigsaw
 
-# Stay Static - Static Website Showcase / Samples
-
+# Stay Static - Static Website Compiler Showcase - One Design, Many Samples
 
 
 </> [**Jekyll Static Website Sample**](jekyll)  #ruby #liquid #yaml
