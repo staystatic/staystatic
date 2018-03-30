@@ -13,7 +13,7 @@ Shows how to use:
 3. Custom Content Types (e.g. Bookmarks 'n' Links)
 
 See the live version @
-[`sites/jekyll`](http://staystatic.github.io/sites/jekyll)
+[`sites/phenomic-react-app`](http://staystatic.github.io/sites/phenomic-react-app)
 
 ```
 ├── App.js
