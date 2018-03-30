@@ -1,5 +1,5 @@
 
-Jekyll • Middleman • Nanoc • Webgen • Metalsmith • Gatsby • Harp • Nikola • Hugo • Jigsaw
+Jekyll • Middleman • Nanoc • Webgen • Metalsmith • Gatsby • Phenomic • Harp • Nikola • Hugo • Jigsaw
 
 # Stay Static - Website Compiler Showcase - One Design, Many Samples
 
@@ -18,6 +18,8 @@ Jekyll • Middleman • Nanoc • Webgen • Metalsmith • Gatsby • Harp •
 
 </> [**Gatsby (+GraphQL) Static Website Sample**](gatsby) #javascript #graphql #react (+jsx)
 
+</> [**Phenomic (+React) Static Website Sample**](phenomic-react-app) #javascript #react (+jsx) -- Thanks to Maxime Thirouin ([@MoOx](https://github.com/MoOx))
+
 </> [**Harp (+Jade) Static Website Sample**](harp-jade) #javascript #jade #json
 
 </> [**Harp (+EJS) Static Website Sample**](harp-ejs) #javascript #ejs #json
@@ -28,7 +30,7 @@ Jekyll • Middleman • Nanoc • Webgen • Metalsmith • Gatsby • Harp •
 
 </> [**Jigsaw Static Website Sample**](jigsaw) #php #blade
 
-</> [**Phenomic (+ React) Static Website Sample**](phenomic-react-app) #javascript #react
+
 
 _Attic (Historic Samples)_
 
