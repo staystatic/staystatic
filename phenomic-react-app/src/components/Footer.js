@@ -1,6 +1,7 @@
-import React from 'react'
+import React from "react";
 
-export default () =>
+export default () => (
   <div id="footer">
     A <a href="http://staystatic.github.io">Stay Static</a> Sample Site
   </div>
+);

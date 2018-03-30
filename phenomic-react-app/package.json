@@ -2,15 +2,15 @@
   "private": true,
   "name": "phenomic-react-app-staystatic",
   "description": "Phenomic Stay Static Sample Website (React app)",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.1",
   "scripts": {
     "start": "phenomic start",
     "build": "phenomic build"
   },
   "devDependencies": {
-    "@phenomic/cli": "^1.0.0-beta.0",
-    "@phenomic/core": "^1.0.0-beta.0",
-    "@phenomic/preset-react-app": "^1.0.0-beta.0",
+    "@phenomic/cli": "^1.0.0-beta.1",
+    "@phenomic/core": "^1.0.0-beta.1",
+    "@phenomic/preset-react-app": "^1.0.0-beta.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-helmet": "^5.0.0",
@@ -21,6 +21,7 @@
     "build": "phenomic build"
   },
   "phenomic": {
+    "baseUrl": "http://staystatic.github.io/sites/phenomic-react-app",
     "presets": ["@phenomic/preset-react-app"]
   },
   "myData": {
