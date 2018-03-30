@@ -28,6 +28,7 @@ Jekyll • Middleman • Nanoc • Webgen • Metalsmith • Gatsby • Harp •
 
 </> [**Jigsaw Static Website Sample**](jigsaw) #php #blade
 
+</> [**Phenomic (+ React) Static Website Sample**](phenomic-react-app) #javascript #react
 
 _Attic (Historic Samples)_
 
