@@ -5,7 +5,7 @@ import React from 'react';
 /**
  * The listing posts component
  */
-const ListPosts = ({ title, _pages }) => (
+const ListPosts = ({ title, _pages, _relativeURL, _ID }) => (
 	<div>
 		<b>{ title }</b>
 		<ul className="news">
@@ -15,7 +15,7 @@ const ListPosts = ({ title, _pages }) => (
 					.sort( ( a, b ) => new Date( _pages[ b ].date ) - new Date( _pages[ a ].date ) )
 					.map( ( page, i ) =>
 						<li key={ i }>
-							<a href={ _pages[ page ]._url }>{ _pages[ page ].pagetitle }</a>
+							<a href={ _relativeURL( _pages[ page ]._url, _ID ) }>{ _pages[ page ].pagetitle }</a>
 						</li>
 					)
 			}

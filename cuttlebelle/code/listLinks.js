@@ -7,7 +7,7 @@ import Fs from 'fs';
 /**
  * The listing links component
  */
-const ListLinks = ({ title, _parseYaml }) => {
+const ListLinks = ({ title, _parseYaml, _relativeURL, _ID }) => {
 
 	const links = _parseYaml(
 		Fs.readFileSync(
@@ -23,7 +23,7 @@ const ListLinks = ({ title, _parseYaml }) => {
 				{
 					links.map( ( link, i ) =>
 						<li key={ i }>
-							<a href={ link.url }>{ link.title }</a>
+							<a href={ _relativeURL( link.url, _ID ) }>{ link.title }</a>
 						</li>
 					)
 				}

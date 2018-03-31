@@ -5,7 +5,7 @@
 > -- cuttlebelle.com
 
 See the live version @
-[`sites/cuttlebelle`](http://staystatic.github.io/sites/cuttlebelle)
+[`sites/cuttlebelle`](https://staystatic.github.io/sites/cuttlebelle)
 
 ```
 .
