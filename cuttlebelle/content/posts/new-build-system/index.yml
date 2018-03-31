@@ -1,0 +1,12 @@
+pagetitle: football.db - New Build System - Welcome ./Datafile
+date: 2014-12-12
+
+header:
+  - /_shared/header.md
+
+main:
+  - body.md
+  - /_shared/posts.md
+
+footer:
+  - /_shared/footer.md

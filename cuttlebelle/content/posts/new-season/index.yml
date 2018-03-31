@@ -1,0 +1,12 @@
+pagetitle: football.db - New 2015/16 Seasons - English Premier League, Bundesliga, And More
+date: 2015-08-25
+
+header:
+  - /_shared/header.md
+
+main:
+  - body.md
+  - /_shared/posts.md
+
+footer:
+  - /_shared/footer.md

@@ -1,0 +1,11 @@
+pagetitle: Welcome
+
+header:
+  - /_shared/header.md
+
+main:
+  - posts.md
+  - links.md
+
+footer:
+  - /_shared/footer.md

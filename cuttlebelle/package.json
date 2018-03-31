@@ -1,0 +1,15 @@
+{
+	"name": "cuttlebelle-staystatic",
+	"description": "Gatsby Stay Static Sample Website",
+	"license": "Public Domain",
+	"scripts": {
+		"docs": "cuttlebelle -d",
+		"build": "cuttlebelle -w",
+		"start": "cuttlebelle"
+	},
+	"dependencies": {
+		"cuttlebelle": "^1.0.0-alpha.57",
+		"moment": "^2.22.0",
+		"slugify": "^1.2.9"
+	}
+}
